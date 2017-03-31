@@ -1,0 +1,544 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+#bd {
+  padding: 0;
+  margin: 0;
+  background-color: #3c3c3c;
+  margin: 0;
+  font-family: sans-serif; }
+
+#mainLoginContainer {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #f9f7f6;
+  padding-top: 10px;
+  border: 1px solid black;
+  text-align: center;
+  padding-bottom: 70px;
+  /*end of loginImage*/ }
+  #mainLoginContainer .loginImage {
+    text-align: center; }
+  #mainLoginContainer img {
+    margin-top: -95px;
+    width: 460px;
+    height: 400px; }
+  #mainLoginContainer #thumbnail {
+    width: 35%;
+    margin: 0 auto;
+    border: 1px solid #b8b8b8;
+    background-color: #ffffff;
+    padding-bottom: 15px;
+    margin-top: -62px; }
+    #mainLoginContainer #thumbnail h3 {
+      margin-top: 50px; }
+    #mainLoginContainer #thumbnail input {
+      padding: 17px;
+      font-size: 18px;
+      font-weight: bold; }
+    #mainLoginContainer #thumbnail #error {
+      color: red;
+      font-size: 16px;
+      text-align: justify;
+      width: 255px;
+      margin: 0 auto; }
+    #mainLoginContainer #thumbnail button {
+      background-color: #f55416;
+      color: #ffffff;
+      font-size: 18px;
+      padding: 15px 98px;
+      border: none;
+      cursor: pointer; }
+
+/*start media 350px here*/
+@media (max-width: 350px) {
+  #mainLoginContainer {
+    width: 100%;
+    margin: 0;
+    background-color: #f9f7f6;
+    padding-top: 10px;
+    border: 0px solid black;
+    text-align: center;
+    padding-bottom: 110px;
+    /*end of thumbnail*/ }
+    #mainLoginContainer img {
+      width: 250px;
+      height: 250px;
+      margin-top: -45px; }
+    #mainLoginContainer #thumbnail {
+      width: 90%;
+      margin: 0 auto;
+      border: 0px solid #b8b8b8;
+      background-color: #f9f7f6;
+      text-align: center;
+      padding-bottom: 15px; }
+      #mainLoginContainer #thumbnail input {
+        padding: 15px 6px;
+        font-size: 16px;
+        font-weight: bold; }
+      #mainLoginContainer #thumbnail button {
+        background-color: #f55416;
+        color: #ffffff;
+        font-size: 18px;
+        padding: 13px 63px;
+        border: none;
+        cursor: pointer; }
+      #mainLoginContainer #thumbnail h3 {
+        margin-top: -43px; }
+      #mainLoginContainer #thumbnail #error {
+        width: 207px;
+        margin: 0 auto; } }
+/*************/
+@media (min-width: 351px) and (max-width: 480px) {
+  #mainLoginContainer {
+    width: 100%;
+    margin: 0;
+    background-color: #f9f7f6;
+    padding-top: 10px;
+    border: 0px solid black;
+    text-align: center;
+    padding-bottom: 70px; }
+    #mainLoginContainer img {
+      width: 255px;
+      height: 255px;
+      margin-top: -33px; }
+    #mainLoginContainer #thumbnail {
+      width: 90%;
+      margin: 0 auto;
+      border: 0px solid #b8b8b8;
+      background-color: #f9f7f6;
+      text-align: center;
+      padding-bottom: 15px; }
+      #mainLoginContainer #thumbnail button {
+        background-color: #f55416;
+        color: #ffffff;
+        font-size: 18px;
+        padding: 15px 85px;
+        border: none;
+        cursor: pointer; }
+      #mainLoginContainer #thumbnail h3 {
+        margin-top: -43px; } }
+/*end of media*/
+@media (min-width: 481px) and (max-width: 660px) {
+  #mainLoginContainer {
+    width: 99%;
+    margin: 0 auto;
+    background-color: #f9f7f6;
+    padding-top: 10px;
+    border: 1px solid black;
+    text-align: center;
+    padding-bottom: 70px; }
+    #mainLoginContainer img {
+      width: 260px;
+      height: 260px;
+      margin-top: -33px; }
+    #mainLoginContainer #thumbnail {
+      width: 99%;
+      border: 0px solid #b8b8b8;
+      background-color: #f9f7f6;
+      text-align: center;
+      padding-bottom: 15px; }
+      #mainLoginContainer #thumbnail button {
+        background-color: #f55416;
+        color: #ffffff;
+        font-size: 18px;
+        padding: 15px 85px;
+        border: none;
+        cursor: pointer; }
+      #mainLoginContainer #thumbnail h3 {
+        margin-top: 18px; } }
+/*end of media*/
+@media (min-width: 661px) and (max-width: 1160px) {
+  #mainLoginContainer {
+    width: 99%;
+    margin: 0 auto;
+    background-color: #f9f7f6;
+    padding-top: 10px;
+    border: 1px solid black;
+    text-align: center;
+    padding-bottom: 70px; }
+    #mainLoginContainer img {
+      width: 270px;
+      height: 270px;
+      margin-top: -29px; }
+    #mainLoginContainer #thumbnail {
+      width: 99%;
+      border: 0px solid #b8b8b8;
+      background-color: #f9f7f6;
+      text-align: center;
+      padding-bottom: 15px; }
+      #mainLoginContainer #thumbnail button {
+        background-color: #f55416;
+        color: #ffffff;
+        font-size: 18px;
+        padding: 15px 85px;
+        border: none;
+        cursor: pointer; }
+      #mainLoginContainer #thumbnail h3 {
+        margin-top: 15px; } }
+/*end of media*/
+/*page2*/
+#page2Container {
+  width: 80%;
+  margin: 2px auto 2px;
+  background-color: #ffffff;
+  padding-top: 10px;
+  border: 0px solid black;
+  padding-bottom: 50px; }
+  #page2Container #inner {
+    width: 80%;
+    margin: 0 auto;
+    border: 0px solid black;
+    margin-top: 50px; }
+    #page2Container #inner h5 {
+      border-bottom: 5px solid #f9dd51;
+      width: 85px;
+      margin-left: 68px; }
+    #page2Container #inner h3 {
+      margin-top: 7px;
+      margin-left: 68px; }
+    #page2Container #inner p {
+      color: #8d8d8f;
+      font-weight: bold;
+      margin-left: 68px;
+      margin-top: 85px; }
+    #page2Container #inner #images ul {
+      margin-left: 42px;
+      margin-top: 30px; }
+      #page2Container #inner #images ul li {
+        list-style: none;
+        display: inline;
+        padding-left: 10px; }
+        #page2Container #inner #images ul li img {
+          width: 110px;
+          height: 110px; }
+    #page2Container #inner #check ul > li {
+      list-style: none;
+      display: inline;
+      padding-left: 106px; }
+    #page2Container #inner button {
+      background-color: #f6ce00;
+      color: #8d8d8f;
+      font-size: 16px;
+      padding: 15px 46px;
+      border: none;
+      cursor: pointer;
+      margin-left: 70px;
+      margin-top: 70px; }
+  #page2Container #logout {
+    text-align: center;
+    color: #8d8d8f;
+    margin-top: 90px; }
+    #page2Container #logout h3 i {
+      cursor: pointer; }
+
+/***************/
+@media (max-width: 480px) {
+  #page2Container {
+    width: 99%;
+    margin: 2px auto 0;
+    background-color: #ffffff;
+    padding-top: 10px;
+    border: 0px solid black; }
+    #page2Container #inner {
+      width: 80%;
+      margin: 0 auto;
+      border: 0px solid black;
+      margin-top: 50px; }
+      #page2Container #inner #check {
+        display: none; }
+      #page2Container #inner #images {
+        text-align: center;
+        margin-top: 20px; }
+        #page2Container #inner #images ul {
+          margin-left: 0px;
+          margin-top: 0px; }
+          #page2Container #inner #images ul li {
+            list-style: none;
+            display: block;
+            padding-left: 0px; }
+            #page2Container #inner #images ul li img {
+              width: 200px;
+              height: 200px; }
+      #page2Container #inner h5 {
+        border-bottom: 5px solid #f9dd51;
+        width: 85px;
+        margin-left: 10px; }
+      #page2Container #inner h3 {
+        margin-top: 7px;
+        margin-left: 10px; }
+      #page2Container #inner p {
+        color: #8d8d8f;
+        font-weight: bold;
+        margin-left: 10px;
+        margin-top: 85px;
+        font-size: 15px; }
+      #page2Container #inner button {
+        display: none; } }
+/**/
+@media (min-width: 481px) and (max-width: 760px) {
+  #page2Container {
+    width: 99%;
+    margin: 2px auto 0;
+    background-color: #ffffff;
+    padding-top: 10px;
+    border: 0px solid black; }
+    #page2Container #inner {
+      width: 80%;
+      margin: 0 auto;
+      border: 0px solid black;
+      margin-top: 50px; }
+      #page2Container #inner #check {
+        display: none; }
+      #page2Container #inner #images {
+        text-align: center;
+        margin-top: 20px; }
+        #page2Container #inner #images ul {
+          margin-left: 0px;
+          margin-top: 0px; }
+          #page2Container #inner #images ul li {
+            list-style: none;
+            display: inline;
+            padding-left: 0px; }
+            #page2Container #inner #images ul li img {
+              width: 180px;
+              height: 180px; }
+      #page2Container #inner h5 {
+        border-bottom: 5px solid #f9dd51;
+        width: 85px;
+        margin-left: 50px; }
+      #page2Container #inner h3 {
+        margin-top: 7px;
+        margin-left: 50px; }
+      #page2Container #inner p {
+        color: #8d8d8f;
+        font-weight: bold;
+        margin-left: 50px;
+        margin-top: 85px; }
+      #page2Container #inner button {
+        display: none; } }
+@media (min-width: 761px) and (max-width: 1280px) {
+  #page2Container {
+    width: 99%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding-top: 10px;
+    border: 0px solid black; }
+    #page2Container #inner {
+      width: 80%;
+      margin: 0 auto;
+      border: 0px solid black;
+      margin-top: 50px; }
+    #page2Container #check {
+      display: none; }
+    #page2Container #images {
+      text-align: center;
+      margin-top: 20px; }
+      #page2Container #images ul {
+        margin-left: 0px;
+        margin-top: 0px; }
+        #page2Container #images ul li {
+          list-style: none;
+          display: inline;
+          padding-left: 0px; }
+          #page2Container #images ul li img {
+            width: 180px;
+            height: 180px; }
+      #page2Container #images h5 {
+        border-bottom: 5px solid #f9dd51;
+        width: 85px;
+        margin-left: 84px; }
+      #page2Container #images h3 {
+        margin-top: 7px;
+        margin-left: 84px; }
+      #page2Container #images p {
+        color: #8d8d8f;
+        font-weight: bold;
+        margin-left: 84px;
+        margin-top: 85px; }
+      #page2Container #images button {
+        display: none; } }
+/*page 3*/
+#page3Container {
+  width: 80%;
+  margin: 2px auto 0;
+  background-color: #ffffff;
+  padding-top: 10px;
+  border: 0px solid black;
+  padding-bottom: 130px; }
+  #page3Container #inner {
+    width: 80%;
+    margin: 0 auto;
+    border: 0px solid black;
+    margin-top: 70px; }
+    #page3Container #inner img {
+      width: 30px;
+      height: 10px;
+      cursor: pointer; }
+    #page3Container #inner span {
+      font-size: 13px;
+      font-weight: bold; }
+    #page3Container #inner #back {
+      width: 124px;
+      border: 0px solid black; }
+    #page3Container #inner h5 {
+      border-bottom: 5px solid #f9dd51;
+      width: 85px;
+      margin-top: 30px; }
+    #page3Container #inner h3 {
+      margin-top: 10px; }
+    #page3Container #inner #complex {
+      margin-left: 178px; }
+      #page3Container #inner #complex div {
+        width: 355px;
+        border: 0px solid black;
+        text-align: justify;
+        padding: 115px;
+        margin-right: 100px;
+        margin-top: 30px;
+        box-shadow: 0px -1px 12px 1px #888888; }
+        #page3Container #inner #complex div p {
+          margin-top: 10px;
+          font-size: 13px;
+          font-weight: bold; }
+      #page3Container #inner #complex img {
+        width: 430px;
+        height: 430px;
+        position: absolute;
+        top: 120px;
+        left: 160px; }
+
+/*media*/
+@media (max-width: 760px) {
+  #page3Container {
+    width: 100%;
+    background-color: #f9f7f6;
+    padding-top: 10px;
+    border: 0px solid black;
+    padding-bottom: 160px;
+    margin-top: 2px; }
+    #page3Container #inner {
+      width: 100%;
+      margin: 0 auto;
+      border: 0px solid black;
+      margin-top: 5px; }
+      #page3Container #inner span {
+        display: none; }
+      #page3Container #inner h3 {
+        margin-top: 10px;
+        margin-left: 25px; }
+      #page3Container #inner img {
+        width: 20px;
+        height: 10px;
+        cursor: pointer;
+        margin-left: 25px;
+        clear: both; }
+      #page3Container #inner h5 {
+        border-bottom: 5px solid #f9dd51;
+        width: 85px;
+        margin-top: 20px;
+        margin-left: 25px; }
+      #page3Container #inner #complex {
+        width: 100%;
+        border: 0px solid black;
+        text-align: justify-all;
+        padding-top: 0px;
+        margin-right: 0px;
+        margin-top: 30px;
+        box-shadow: none;
+        background-color: #ffffff;
+        margin-left: 0px;
+        text-align: center; }
+        #page3Container #inner #complex div {
+          width: auto;
+          border: 0px solid black;
+          padding: 50px;
+          text-align: center;
+          padding-top: 0px;
+          margin-right: 0px;
+          margin-top: 0px;
+          box-shadow: none;
+          background-color: #ffffff; }
+          #page3Container #inner #complex div p {
+            margin-top: 30px;
+            font-size: 12px;
+            font-weight: bold; }
+          #page3Container #inner #complex div h1 {
+            font-weight: bold;
+            font-size: 50px; }
+        #page3Container #inner #complex img {
+          width: 250px;
+          height: 250px;
+          position: static;
+          margin-top: -190px; }
+      #page3Container #inner #media {
+        background-color: #f9f7f6;
+        padding-bottom: 125px; } }
+@media (min-width: 761px) and (max-width: 1260px) {
+  #page3Container {
+    width: 90%;
+    background-color: #f9f7f6;
+    padding-top: 10px;
+    border: 0px solid black;
+    padding-bottom: 145px;
+    margin: 2px auto 0; }
+    #page3Container #inner {
+      width: 100%;
+      margin: 0 auto;
+      border: 0px solid black;
+      margin-top: 5px; }
+      #page3Container #inner span {
+        display: none; }
+      #page3Container #inner h3 {
+        margin-top: 10px;
+        margin-left: 25px; }
+      #page3Container #inner img {
+        width: 20px;
+        height: 10px;
+        cursor: pointer;
+        margin-left: 25px;
+        clear: both; }
+      #page3Container #inner h5 {
+        border-bottom: 5px solid #f9dd51;
+        width: 85px;
+        margin-top: 20px;
+        margin-left: 25px; }
+      #page3Container #inner #complex {
+        width: 100%;
+        border: 0px solid black;
+        text-align: justify-all;
+        padding-top: 0px;
+        margin-right: 0px;
+        margin-top: 50px;
+        box-shadow: none;
+        background-color: #ffffff;
+        margin-left: 0px;
+        text-align: center; }
+        #page3Container #inner #complex div {
+          width: auto;
+          border: 0px solid black;
+          padding: 50px;
+          text-align: center;
+          padding-top: 0px;
+          margin-right: 0px;
+          margin-top: 0px;
+          box-shadow: none;
+          background-color: #ffffff; }
+          #page3Container #inner #complex div p {
+            margin-top: 30px;
+            font-size: 16px;
+            font-weight: bold; }
+          #page3Container #inner #complex div h1 {
+            font-weight: bold;
+            font-size: 50px; }
+        #page3Container #inner #complex img {
+          width: 300px;
+          height: 300px;
+          position: static;
+          margin-top: -230px; }
+      #page3Container #inner #media {
+        background-color: #f9f7f6;
+        padding-bottom: 125px; } }
+
+/*# sourceMappingURL=style.css.map */
